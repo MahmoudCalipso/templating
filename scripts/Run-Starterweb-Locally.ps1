@@ -4,6 +4,8 @@
 [CmdletBinding(PositionalBinding = $false)]
 param()
 
+# BEWARE: This script makes changes to source files which you will have to seperate from any changes you want to keep before commiting.
+
 Set-StrictMode -Version 2
 $ErrorActionPreference = 'Stop'
 
